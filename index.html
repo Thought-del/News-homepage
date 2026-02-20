@@ -20,6 +20,111 @@
    <script type="module" defer src="js/main.js"></script>
 </head>
 <body>
-  
+  <header class="container-header">
+    <a href="/" class="logo" aria-label="W. homepage">W.</a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">New</a></li>
+        <li><a href="#" class="nav-link">Popular</a></li>
+        <li><a href="#" class="nav-link">Trending</a></li>
+        <li><a href="#" class="nav-link">Categories</a></li>
+      </ul>
+    </nav>
+
+    <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Menu">
+      <img src="assets/images/icon-menu.svg" alt="" aria-hidden="true">
+    </button>
+  </header>
+
+  <div class="mobile-menu" hidden>
+    <button class="close-menu" aria-label="Close menu">
+      <img src="assets/images/icon-menu-close.svg" alt="" aria-hidden="true">
+    </button>
+
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <ul class="nav-mobile-list">
+        <li><a href="#" class="nav-mobile-link">Home</a></li>
+        <li><a href="#" class="nav-mobile-link">New</a></li>
+        <li><a href="#" class="nav-mobile-link">Popular</a></li>
+        <li><a href="#" class="nav-mobile-link">Trending</a></li>
+        <li><a href="#" class="nav-mobile-link">Categories</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main class="container">
+    <h1 class="sr-only">News Homepage - W. Tech News</h1>
+
+    <section class="featured" aria-labelledby="featured-title">
+      <picture>
+        <source media="(min-width: 64em)" srcset="assets/images/image-web-3-desktop.jpg">
+        <img src="assets/images/image-web-3-mobile.jpg" alt="The Bright Future of Web 3.0">
+      </picture>
+
+      <div class="featured-content">
+        <h2 id="featured-title">The Bright Future of Web 3.0?</h2>
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+        <a href="#" class="btn btn-primary">READ MORE</button>
+      </div>
+    </section>
+
+    <section class="new" aria-labelledby="new-title">
+      <h2 id="new-title">New</h2>
+
+      <article class="new-article">
+        <h3>
+          <a href="#">Hydrogen VS Electric Cars</a>
+        </h3>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </article>
+      <hr>
+      <article class="new-article">
+        <h3>
+          <a href="#">The Downsides of AI Artistry</a>
+        </h3>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </article>
+      <hr>
+      <article class="new-article">
+        <h3>
+          <a href="#">Is VC Funding Drying Up?</a>
+        </h3>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </article>
+    </section>
+
+    <section class="top" aria-labelledby="top-title">
+      <h2 id="top-title" class="sr-only">Top articles</h2>
+
+      <article class="top-article">
+        <img src="assets/images/image-retro-pcs.jpg" alt="Retro computer">
+        <span>01</span>
+        <h3>
+          <a href="#">Reviving Retro PCs</a>
+        </h3>
+        <p>What happens when old PCs are given modern upgrades?</p>
+      </article>
+
+      <article class="top-article">
+        <img src="assets/images/image-top-laptops.jpg" alt="Modern laptop">
+        <span>02</span>
+        <h3>
+          <a href="#">Top 10 Laptops of 2022</a>
+        </h3>
+        <p>Our best picks for various needs and budgets.</p>
+      </article>
+
+      <article class="top-article">
+        <img src="assets/images/image-gaming-growth.jpg" alt="Gaming controller">
+        <span>03</span>
+        <h3>
+          <a href="#">The Growth of Gaming</a>
+        </h3>
+        <p>How the pandemic has sparked fresh opportunities.</p>
+      </article>
+    </section>
+  </main>
 </body>
 </html>
