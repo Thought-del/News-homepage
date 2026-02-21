@@ -1,0 +1,91 @@
+body {
+    background-color: var(--color-off-white);
+    color: var(--color-text-dark-blue);
+}
+
+.logo {
+    color: var(--color-text-very-dark-blue);
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mobile-menu {
+    background-color: var(--color-off-white);
+}
+
+.nav-mobile-link {
+    color: var(--color-text-very-dark-blue);
+}
+
+#featured-title {
+    color: var(--color-text-very-dark-blue);
+}
+
+.btn-primary {
+    background: var(--color-primary-red);
+    color: var(--color-text-very-dark-blue);
+}
+
+.new {
+    background-color: var(--color-text-very-dark-blue);
+    color: var(--color-text-blue);
+}
+
+#new-title {
+    color: var(--color-primary-orange);
+}
+
+.new-article h3 {
+    color: var(--color-off-white);
+}
+
+.top-content span {
+    color: var(--color-primary-red);
+}
+
+.top-content h3 {
+    color: var(--color-text-very-dark-blue);
+}
+
+button:focus, a:focus {
+    outline-color: var(--color-primary-orange);
+}
+
+
+/* Hovers, active */
+.nav-mobile-link:active {
+    color: var(--color-primary-red);
+}
+
+.nav-link:hover {
+    color: var(--color-primary-red);    
+    transition: color 0.2s ease;
+}
+
+.nav-link:active { color: var(--color-primary-red); }
+
+.btn-primary:hover {
+    background: var(--color-text-very-dark-blue);
+    color: var(--color-off-white);
+    transition: background 0.3s ease, color 0.3s linear;
+}
+
+.new-article h3 a:hover {
+    color: var(--color-primary-orange);
+    transition: color 0.2s ease;
+}
+
+.top-article h3 a:hover {
+    color: var(--color-primary-red);
+    transition: color 0.2s ease;
+}
+
+.btn-primary:active {
+    background: var(--color-text-very-dark-blue);
+    color: var(--color-off-white);
+}
+
+.new-article h3 a:active { color: var(--color-primary-orange); }
+.top-article h3 a:active { color: var(--color-primary-red); }

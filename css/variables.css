@@ -8,6 +8,29 @@
     --color-text-dark-blue: hsl(236, 13%, 42%);
     --color-text-blue: hsl(233, 8%, 79%);
 
+
+    /* == DARK_COLORS == */
+    --bg-primary: hsl(240, 20%, 5%);
+    --bg-secondary: hsl(240, 15%, 10%);
+    --bg-tertiary: hsl(240, 20%, 8%);
+
+    --text-primary: hsl(36, 100%, 95%);
+    --text-secondary: hsl(233, 8%, 85%);
+    --text-tertiary: hsl(233, 8%, 70%);
+    --text-muted: hsl(233, 8%, 75%);
+
+    --accent-red: hsl(5, 85%, 63%);
+    --accent-orange: hsl(35, 77%, 62%);
+    --accent-red-hover: hsl(5, 75%, 53%);
+    --accent-orange-hover: hsl(35, 67%, 52%);
+
+    --border-color: hsl(233, 8%, 20%);
+
+    --overlay-color: rgba(0, 0, 0, 0.8);
+
+    --img-brightness: 0.9;
+    --img-contrast: 1.1;
+
     /* === 2. TYPOGRAPHY === */
     --font-family: 'Inter', system-ui, -apple-system, sans-serif;
     
@@ -21,7 +44,7 @@
     
     --font-weight-regular: 400;
     --font-weight-bold: 700;
-    --font-weightn-extra-bold: 800;
+    --font-weight-extra-bold: 800;
     
     --line-height-tight: 1.2;
     --line-height-normal: 1.5;

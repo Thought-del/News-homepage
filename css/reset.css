@@ -4,19 +4,31 @@
     box-sizing: border-box;
 }
 
-img {
-    display: block;
+ul, ol {
+    list-style: none;
+}
+
+a {
+    font: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 button {
+    font: inherit;
     border: none;
+    background: none;
     cursor: pointer;
 }
 
-input {
-    cursor: pointer;
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
 }
 
-fieldset {
-    border: none;
+input,
+textarea,
+select {
+    font: inherit;
 }

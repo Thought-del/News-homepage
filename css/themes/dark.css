@@ -1,0 +1,80 @@
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+}
+
+.logo {
+    color: var(--text-primary);
+}
+
+.overlay {
+    background-color: var(--overlay-color);
+}
+
+.mobile-menu {
+    background-color: var(--bg-secondary);
+    border-left: 1px solid var(--border-color);
+}
+
+.nav-mobile-link,
+.nav-link {
+    color: var(--text-muted);
+}
+
+.nav-mobile-link:hover,
+.nav-link:hover {
+    color: var(--accent-orange);
+}
+
+#featured-title,
+.new-article h3 a,
+.top-content h3 a {
+    color: var(--text-primary);
+}
+
+.featured-description p,
+.new-article p,
+.top-content p {
+    color: var(--text-tertiary);
+}
+
+.btn-primary {
+    background: var(--accent-red);
+    color: var(--bg-primary);
+}
+
+.btn-primary:hover {
+    background: var(--accent-orange);
+}
+
+.new {
+    background-color: var(--bg-tertiary);
+}
+
+#new-title {
+    color: var(--accent-orange);
+}
+
+.new-article h3 a:hover {
+    color: var(--accent-orange);
+}
+
+hr {
+    border-color: var(--border-color);
+}
+
+.top-content span {
+    color: var(--accent-red);
+}
+
+.top-content h3 a:hover {
+    color: var(--accent-red);
+}
+
+button:focus, a:focus {
+    outline-color: var(--accent-orange);
+}
+
+.top-article img {
+    filter: brightness(var(--img-brightness)) contrast(var(--img-contrast));
+}

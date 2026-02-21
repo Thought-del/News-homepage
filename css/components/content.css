@@ -1,0 +1,49 @@
+.desktop-nav {
+    display: none;
+}
+
+.btn-primary {
+    padding: clamp(0.5rem, 0.3555rem + 0.6163vw, 0.75rem) clamp(1rem, 0.8555rem + 0.6163vw, 1.25rem);
+    text-align: center;
+    width: 50%;
+}
+
+.new {
+    padding: var(--space-5) var(--space-4);
+}
+
+#new-title {
+    margin-block-end: var(--space-5);
+}
+
+hr {
+    margin-block: var(--space-5);
+}
+
+.new-article h3 {
+    margin-block-end: var(--space-1);
+}
+
+.top-article {
+    margin-block-end: var(--space-6);
+}
+
+.top-article h3 {
+    margin-block-end: var(--space-1);
+}
+
+.top-img img {
+    width: clamp(12.5rem, 10.6943rem + 7.7042vw, 15.625rem);
+    height: clamp(9.375rem, 7.5693rem + 7.7042vw, 12.5rem);
+}
+
+
+button:focus, a:focus {
+    outline: 2px solid;
+    outline-offset: 2px;
+}
+
+button:focus:not(:focus-visible), a:focus:not(:focus-visible),
+button:active, a:active {
+    outline: none;
+}
