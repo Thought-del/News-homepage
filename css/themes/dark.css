@@ -3,10 +3,6 @@ body {
     color: var(--text-secondary);
 }
 
-.logo {
-    color: var(--text-primary);
-}
-
 .overlay {
     background-color: var(--overlay-color);
 }
